@@ -1,18 +1,14 @@
 #include <iostream>
+#include<math.h>
 using namespace std;
+int main () {
+  int tugas, uts, uas;
+  tugas= 70;
+  uas= 80;
+  uts= 95;
 
-int main() {
-  int jarak, waktu;
-  float kecepatan;
+  float rata_rata;
+  rata_rata = (tugas, uas, uts)/3;
 
-  cout<<"masukkan jarak tempuh (dalam km): 75km";
-  cin>>jarak;
-  cout<<"masukkan waktu tempuh (dalam jam): 20jam";
-  cin>>waktu;
-
-  kecepatan = jarak / waktu;
-
-  cout<<"kecepatan kendaraan:"<<kecepatan<<"km/jam"<<endl;
-
-  return 0;
+  cout<< rata_rata << endl;
 }
